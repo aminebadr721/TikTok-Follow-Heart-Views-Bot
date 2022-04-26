@@ -50,7 +50,8 @@ def loop2():
         loop2()
     try:
         sleep(2)
-        driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/div/div/form/div/input").send_keys(vidUrl)
+        driver.find_element_by_xpath("https://www.tiktok.com/@aminegm06/video/7074007011007958273?is_from_webapp=1&sender_device=pc&web_id=7090901073678910982
+                                     ").send_keys(vidUrl)
         sleep(1)
         driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/div/div/form/div/div/button").click()
         sleep(10)
